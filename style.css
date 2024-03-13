@@ -37,6 +37,7 @@ ul.articles li{
     margin-left: 4px;
     margin-right: 4px;
     color: black;
+    transition:0.3s;
 }
 
 ul.articles img{
@@ -102,6 +103,13 @@ ul.articles li .container{
     bottom:0;
 }
 
+.articles li:hover
+{
+    /* background-color: #f97373; */
+    scale: 1.1;
+    /* box-shadow: inset 0px 0px -40px -40px #DBA632; */
+}
+
 ul.articles li .container p{
     margin-bottom: 0px;
     margin-top: 0px;
@@ -135,6 +143,7 @@ img.imglog{
     font-size: 30px;
     margin: -6px;
     margin-top: 0;
+    color:white;
 }
 
 .scrollmenu {
@@ -146,7 +155,6 @@ img.imglog{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    transition: 1.3s;
 }
 
     /* border-radius: 20px; */
@@ -165,6 +173,8 @@ img.imglog{
     font-family: inconsolata;
     font-style: italic;
     color: rgb(141, 141, 141);
+    transition: 0.3s;
+
 }
 
 .header h1
