@@ -255,12 +255,13 @@ footer
     align-content: space-between;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 footer .twitter
 {
-    margin-left: 100px;
     margin: 0;
+    margin-left: 90px;
     padding: 8px;
     border-radius: 10px;
     font-size: 20px;
