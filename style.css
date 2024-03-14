@@ -248,3 +248,21 @@ button.selected
     border-top: solid 2px #f97373;
     color: #f97373;
 }
+
+footer
+{
+    display:flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .twitter
+{
+    margin-left: 100px;
+    margin: 0;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(53, 89, 167);
+}
