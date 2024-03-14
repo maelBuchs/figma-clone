@@ -215,9 +215,11 @@ div.pageselect
 {
     display: flex;
     justify-content: center;
+    
 }
 
 .pageselect button:hover{
+    font-weight: 200;
     background-color: #f97373;
     border-radius: 10px;
     color: white;
@@ -236,7 +238,7 @@ div.pageselect
     text-align: center;
     text-decoration: none;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 400;
     font-family: exo, sans-serif;
     font-style: italic;
     color: rgb(141, 141, 141);
